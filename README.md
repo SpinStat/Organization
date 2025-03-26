@@ -17,7 +17,7 @@ This open-source bike computer aims to provide an alternative to traditional, pr
 
 ### Ideas and Features in Consideration:
 - **18650 Battery Support:** We’re exploring support for 18650 batteries due to their low cost, high capacity, and wide availability in the maker community.
-- **Low Power Components:** To maximize battery life, we are investigating lower-power boards (such as the RP2040) that are capable of running lightweight OSes like CircuitPython.
+- **Flashlight:** Phone-like flashlight, just becourse it is usefull.
 - **Touchscreen and Physical Controls:** We understand the debate between touchscreens and physical buttons. While some users prefer a touchscreen for its flexibility, others prefer tactile buttons. The bike computer will likely include both options to cater to all preferences.
 - **Solar Charging:** We are also considering solar panels to keep the device charged during extended rides, minimizing the need for manual charging.
 
@@ -37,10 +37,9 @@ The focus right now is on making hardware choices and gathering feedback from th
 We welcome contributions from everyone! Whether you want to suggest new features, improve the hardware, or assist with software development, there’s a place for you in this project.
 
 To contribute:
-1. Fork the repository.
-2. Create a branch for your feature or bug fix.
-3. Make your changes and submit a pull request (PR).
-4. Provide clear documentation for any changes you make, especially if it involves hardware.
+1. Create a branch for your feature or bug fix.
+2. Make your changes and submit a pull request (PR).
+3. Provide clear documentation for any changes you make, especially if it involves hardware.
 
 (If you are new to git or github feel free to reach out for help on how this process works, we all need to start somewhere)
 
