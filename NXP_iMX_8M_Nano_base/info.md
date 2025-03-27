@@ -8,3 +8,5 @@ Advantage:
 - Runs yocot linux
 - i can actually get my hands on this thing
 - its not to expensive
+
+SDK can be downloaded via https://mcuxpresso.nxp.com/download/97cd0f454d2923f2d9712a3c8af41568
