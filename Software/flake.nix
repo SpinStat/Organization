@@ -16,9 +16,10 @@
         buildInputs = with pkgs; [
           git
           direnv
-          nixFlakes
+          nixVersions.stable
           qemu
-          gdb-multiarch
+          gdb  # Instead of gdb-multiarch
+          binutils
           python3
           cmake
           ninja
@@ -33,10 +34,10 @@
           rsync  # For syncing build outputs
         ];
 
-        # Cross-Compilers for ARM & Cortex-M
+        # Corrected Cross-Compilers for ARM & Cortex-M
         nativeBuildInputs = with pkgs; [
           gcc-arm-embedded  # GCC toolchain for Cortex-M
-          gcc-aarch64-none-elf  # GCC toolchain for Cortex-A
+          gcc-aarch64-embedded  # GCC toolchain for Cortex-A
         ];
 
         # Environment variables
