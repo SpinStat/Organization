@@ -1,17 +1,26 @@
-# Open-Source Bike Computer Hardware
+# SpinStat bike computer 
 
-Welcome to the hardware repository for the Open-Source Bike Computer project! This project aims to create an open, customizable, and modular bike computer for cyclists who want more control over their ride experience. Whether you’re an enthusiast or a developer, we invite you to collaborate, contribute, and make this project better!
+Welcome to the repository for the Open-Source Bike Computer 'SpinStat' project!
+This project aims to create an open, customizable, and modular bike computer
+for cyclists who want more control over their ride experience.
+Whether you’re an enthusiast or a developer, we invite you to collaborate, contribute, and make this project better!
 
 ## Project Overview
 
 This open-source bike computer aims to provide an alternative to traditional, proprietary cycling computers by allowing users to build, modify, and extend their own device. Our goal is to create a versatile, power-efficient, and user-friendly bike computer with customizable features.
+
+## Current State
+
+The current plans are the NXP RT1170, a u-blox M9N and a Bosch BNO055. The main code will probably be written in Rust using FreeRTOS.
+Currently I (benedikt.zinn@proton.me) am working on a tiny Kotlin app for android phones that records GPS and IMU data into a file.
+This data will be used to develop and test sensor fusion of the GPS and IMU data.
 
 ### Features Planned:
 - **Custom Carrier Board:** A custom-designed carrier board that all of the components can be soldered or plugged into.
 - **Battery Module:** Modular battery packs that can be easily swapped out, each equipped with a balancing board, allowing you to carry multiple charged packs for extended trips.
 - **Button Interface & Tactile Scroll Wheel:** Physical buttons for user interaction, potentially including a tactile scroll wheel (inspired by devices like the Apple Watch or Suunto watches) for a smoother cycling experience.
 - **Mapping & Navigation:** OpenStreetMap integration for pre-planned routes with on-device routing planned for future updates.
-- **Connectivity:** Support for Wi-Fi, Bluetooth, ANT+, GPS, GLONASS, and a digital compass.
+- **Connectivity:** Support for Wi-Fi, Bluetooth, ANT+
 - **Data Views:** Initially, the device will provide fixed data views with plans for customization options later.
 - **Additional Integrations:** Weather data, phone app syncing, and other features may be integrated as the project progresses.
 
@@ -27,10 +36,7 @@ This open-source bike computer aims to provide an alternative to traditional, pr
 We’re still in the early stages of the hardware design process. 
 The focus right now is on making hardware choices and gathering feedback from the cycling community to define the most important features.
 
-### Next Steps:
-- **Prototyping:** We plan to develop initial prototypes of the custom carrier board and battery modules.
-- **Testing:** Testing will focus on power consumption, battery life, and performance under real-world cycling conditions.
-- **Feature Implementation:** We’ll begin working on software that integrates with the hardware, focusing on basic features like navigation and data views before moving on to more advanced options like phone app syncing or weather integration.
+First a bit of Software prototyping is already happening. The goal is to be independant of hardware when developing, thats also the reason for the current emphasis on an Android app for gathering data for mocking.
 
 ## Contributing
 
