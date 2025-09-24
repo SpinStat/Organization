@@ -9,6 +9,10 @@ Whether you’re an enthusiast or a developer, we invite you to collaborate, con
 
 This open-source bike computer aims to provide an alternative to traditional, proprietary cycling computers by allowing users to build, modify, and extend their own device. Our goal is to create a versatile, power-efficient, and user-friendly bike computer with customizable features.
 
+## Development
+
+To get started with development take a look at [Development](./DEV.md).
+
 ## Current State
 
 The current plans are the NXP RT1170, a u-blox M9N and a Bosch BNO055. The main code will probably be written in Rust using FreeRTOS.
