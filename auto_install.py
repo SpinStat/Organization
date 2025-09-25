@@ -174,8 +174,10 @@ def main():
         center_print("Systems of this type not supported by autoinstaller")
         center_print("Check the 'DEV.md' file for a guide to setting up the project")
         return
-    ensure_venv()
-    install_python_packages()
+    # ensure_venv()
+    # install_python_packages()
+
+    # zephyr repo structures are weird...
 
     center_print("DONE", "=")
 
