@@ -40,10 +40,15 @@ necessary_packages_macos = [
     "ninja",
 ]
 
+# python packages
+python_packags = [
+    "west"
+]
+
 
 def center_print(inp: str, buffer: chr = " "):
     console_width = os.get_terminal_size()
-    print((" " + inp + "").center(console_width.columns - 2, buffer))
+    print((" " + inp + " ").center(console_width.columns - 2, buffer))
 
 
 def run_cmd(cmd):
@@ -148,6 +153,13 @@ def ensure_venv():
     center_print(
         f"To activate the virtual environment, run: source {activate_script}", "#"
     )
+def install_python_packages():
+    center_print(
+        "Installing python packages into venv via pip", "_"
+    )
+    for package in  python_packags:
+        center_print(f"Installing: {package}")
+        subprocess.run(["pip", "install", package])
 
 
 def main():
@@ -163,6 +175,9 @@ def main():
         center_print("Check the 'DEV.md' file for a guide to setting up the project")
         return
     ensure_venv()
+    install_python_packages()
+
+    center_print("DONE", "=")
 
 
 if __name__ == "__main__":
