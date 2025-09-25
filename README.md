@@ -5,13 +5,17 @@ This project aims to create an open, customizable, and modular bike computer.
 Whether you’re an enthusiast or a developer, we invite you to collaborate, contribute, and make this project better!
 
 ## Development
+### Software
 
-To get started with development take a look at [Development](./DEV.md).
+To get started with software development take a look at [Development](./DEV.md).
+
+### Hardware
+
+Hardware development is still an open topic, as soon as there is actual progress it can be found [here](https://github.com/SpinStat/Hardware).
 
 ## Current State
 
 The current plans are the STM32H7, a u-blox GNSS and a Bosch BNO055. Zephyre is the choice of RTOS for now.
-
 
 ### Features Planned:
 - **Battery Module:** Modular battery packs that can be easily swapped out, each equipped with a balancing board, allowing you to carry multiple charged packs for extended trips.
