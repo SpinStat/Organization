@@ -7,11 +7,11 @@ Whether you’re an enthusiast or a developer, we invite you to collaborate, con
 ## Development
 ### Software
 
-To get started with software development take a look at [Development](./DEV.md).
+To get started with software development take a look at [the software repository.](https://github.com/SpinStat/SpinStat_Software).
 
 ### Hardware
 
-Hardware development is still an open topic, as soon as there is actual progress it can be found [here](https://github.com/SpinStat/Hardware).
+Hardware development is still an open topic, as soon as there is actual progress it can be found in [the hardware repository.](https://github.com/SpinStat/SpinStat_Hardware).
 
 ## Current State
 
